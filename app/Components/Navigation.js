@@ -9,7 +9,7 @@ import ConnectWithoutContactIcon from "@mui/icons-material/ConnectWithoutContact
 //import Link from "next/link";
 import { Link as RouterLink } from "next/link";
 import Link from "next/link";
-import styles from "../styles/navigation.module.css";
+import styles from "../styles/Navigation.module.css";
 
 function Navigation() {
   const [showMenu, setShowMenu] = useState(false);
@@ -53,15 +53,8 @@ function Navigation() {
             >
               <Link
                 component={RouterLink}
-                color="inherit"
                 href="/"
-                style={{
-                  color: "black",
-                  textDecoration: "none",
-                  "&:hover": {
-                    textDecoration: "underline",
-                  },
-                }}
+                className={styles["text-no-underline"]}
               >
                 <HomeIcon sx={{ mr: 0.8, color: "black" }} fontSize="inherit" />
                 Home
@@ -69,10 +62,8 @@ function Navigation() {
 
               <Link
                 component={RouterLink}
-                color="inherit"
                 href="/about"
-                underline="hover"
-                style={{ color: "black" }}
+                className={styles["text-no-underline"]}
               >
                 <KeyboardIcon
                   sx={{ mr: 0.8, color: "black" }}
@@ -84,8 +75,7 @@ function Navigation() {
               <Link
                 component={RouterLink}
                 href="/contact"
-                underline="hover"
-                style={{ color: "black" }}
+                className={styles["text-no-underline"]}
               >
                 <ConnectWithoutContactIcon
                   sx={{ mr: 0.8, color: "black" }}

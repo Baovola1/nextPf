@@ -1,7 +1,13 @@
 import React from "react";
+import Navigation from "../Components/Navigation";
 
 const contact = () => {
-  return <div>contact</div>;
+  return (
+    <>
+      <Navigation />
+      <h1>Contact</h1>
+    </>
+  );
 };
 
 export default contact;

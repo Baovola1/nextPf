@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Navigation />
       <main className={styles.main}>
-        <h1>Welcome in my page</h1>
+        <h1 className={styles.myHeading}>Welcome in my page</h1>
       </main>
     </>
   );

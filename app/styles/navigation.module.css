@@ -1,8 +1,8 @@
-.custom-link {
-  color: black;
+.text-no-underline {
   text-decoration: none;
+  color: black;
 }
 
-.custom-link:hover {
+.text-no-underline:hover {
   text-decoration: underline;
 }

@@ -1,7 +1,13 @@
 import React from "react";
+import Navigation from "../Components/Navigation";
 
 const about = () => {
-  return <div>about</div>;
+  return (
+    <>
+      <Navigation />
+      <h1>About</h1>
+    </>
+  );
 };
 
 export default about;
