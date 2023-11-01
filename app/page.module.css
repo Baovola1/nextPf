@@ -6,5 +6,6 @@
 }
 
 .myHeading:hover {
-  text-decoration: underline;
+  text-transform: uppercase;
+  color: #c75091;
 }

@@ -20,7 +20,12 @@ function Navigation() {
 
   return (
     <>
-      <header style={{ backgroundColor: "#7fffd4" }}>
+      <header
+        style={{
+          backgroundColor: "purple",
+          background: "linear-gradient(to right, purple, pink)",
+        }}
+      >
         <nav className="fixed top-0 w-full flex justify-between p-4 bg-slate-200">
           <div className="sm:hidden">
             <button
