@@ -6,9 +6,10 @@ import MenuIcon from "@mui/icons-material/Menu";
 import HomeIcon from "@mui/icons-material/Home";
 import KeyboardIcon from "@mui/icons-material/Keyboard";
 import ConnectWithoutContactIcon from "@mui/icons-material/ConnectWithoutContact";
-import { Box, Link } from "@mui/material";
-import { Link as RouterLink } from "next/link";
 //import Link from "next/link";
+import { Link as RouterLink } from "next/link";
+import Link from "next/link";
+import styles from "../styles/navigation.module.css";
 
 function Navigation() {
   const [showMenu, setShowMenu] = useState(false);
@@ -42,8 +43,8 @@ function Navigation() {
 
         {showMenu && (
           <div className="sm:hidden">
-            <Box
-              sx={{
+            <div
+              style={{
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "center",
@@ -54,14 +55,15 @@ function Navigation() {
                 component={RouterLink}
                 color="inherit"
                 href="/"
-                underline="hover"
-                sx={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
+                style={{
+                  color: "black",
+                  textDecoration: "none",
+                  "&:hover": {
+                    textDecoration: "underline",
+                  },
                 }}
               >
-                <HomeIcon sx={{ mr: 0.8 }} fontSize="inherit" />
+                <HomeIcon sx={{ mr: 0.8, color: "black" }} fontSize="inherit" />
                 Home
               </Link>
 
@@ -70,34 +72,28 @@ function Navigation() {
                 color="inherit"
                 href="/about"
                 underline="hover"
-                sx={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                }}
+                style={{ color: "black" }}
               >
-                <KeyboardIcon sx={{ mr: 0.8 }} fontSize="inherit" />
+                <KeyboardIcon
+                  sx={{ mr: 0.8, color: "black" }}
+                  fontSize="inherit"
+                />
                 About
               </Link>
 
               <Link
                 component={RouterLink}
-                color="inherit"
                 href="/contact"
                 underline="hover"
-                sx={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                }}
+                style={{ color: "black" }}
               >
                 <ConnectWithoutContactIcon
-                  sx={{ mr: 0.8 }}
+                  sx={{ mr: 0.8, color: "black" }}
                   fontSize="inherit"
                 />
                 Contact
               </Link>
-            </Box>
+            </div>
           </div>
         )}
       </header>
