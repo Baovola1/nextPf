@@ -9,3 +9,27 @@
   text-transform: uppercase;
   color: #c75091;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #30363d;
+  color: white; /* Texte en blanc */
+  border-radius: 50px;
+}
+
+.photo {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+.roundedImage {
+  border-radius: 100px;
+}
+.text {
+  flex: 1;
+  text-align: left;
+}
