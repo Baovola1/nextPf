@@ -1,13 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Pacifico&display=swap");
+
 .main {
   margin: 0;
-  /*background-color: #30363d;*/
-  /*min-height: 100vh;*/
+  /*background-color: #161623;*/
+  min-height: 100vh;
   overflow-x: hidden;
 }
 
 .myHeading:hover {
   text-transform: uppercase;
   color: #c75091;
+  font-family: Pacifico;
 }
 
 .container {

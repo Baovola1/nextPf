@@ -23,7 +23,7 @@ function Navigation() {
       <header
         style={{
           backgroundColor: "purple",
-          background: "linear-gradient(to right, purple, pink)",
+          background: "cyan",
         }}
       >
         <nav className="fixed top-0 w-full flex justify-between p-4 bg-slate-200">
