@@ -5,34 +5,29 @@
   /*background-color: #161623;*/
   min-height: 100vh;
   overflow-x: hidden;
-}
-
-.myHeading:hover {
-  text-transform: uppercase;
-  color: #c75091;
-  font-family: Pacifico;
-}
-
-.container {
   display: flex;
+  justify-content: center;
   align-items: center;
-  max-width: 60%;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #30363d;
-  color: white; /* Texte en blanc */
-  border-radius: 50px;
+}
+.container {
+  padding: 0;
+
+  text-align: center;
+  /* border: 5px solid pink;*/
+  top: 20px;
+  left: 50px;
 }
 
+.text1 {
+  color: white;
+}
 .photo {
   flex: 0 0 auto;
   margin-right: 20px;
 }
-
 .roundedImage {
   border-radius: 100px;
 }
-.text {
-  flex: 1;
-  text-align: left;
+.text2 {
+  color: white;
 }

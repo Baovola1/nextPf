@@ -6,7 +6,6 @@ import MenuIcon from "@mui/icons-material/Menu";
 import HomeIcon from "@mui/icons-material/Home";
 import KeyboardIcon from "@mui/icons-material/Keyboard";
 import ConnectWithoutContactIcon from "@mui/icons-material/ConnectWithoutContact";
-//import Link from "next/link";
 import { Link as RouterLink } from "next/link";
 import Link from "next/link";
 import styles from "../styles/Navigation.module.css";
