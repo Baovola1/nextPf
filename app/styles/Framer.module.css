@@ -1,6 +1,6 @@
 .box {
-  width: 200px; /* Ajustez la largeur selon vos besoins */
-  height: 200px; /* Ajustez la hauteur selon vos besoins */
+  width: 200px; /* Ajustez la largeur  */
+  height: 200px; /* Ajustez la hauteur */
   background: rgba(255, 255, 255, 0.1); /* Couleur de fond avec transparence */
   backdrop-filter: blur(15px); /* Flou gaussien pour l'effet de verre */
   border-radius: 15px; /* Rayon de bordure pour arrondir les coins */
