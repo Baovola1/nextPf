@@ -4,6 +4,8 @@
   margin: 0;
   /*background-color: #161623;*/
   min-height: 100vh;
+  width: 100%;
+
   /*overflow-x: hidden;*/
   display: flex;
   justify-content: center;
