@@ -10,6 +10,7 @@ body {
   width: 100%;
   height: 100vh;
   box-sizing: border-box;
+  overflow-x: hidden; /* Ajout pour éviter le défilement horizontal */
 }
 
 /*Style pour le circle droite*/
@@ -40,4 +41,5 @@ body::after {
 
 h1 {
   text-align: center;
+  color: white; /* Ajout de la couleur pour être plus explicite */
 }

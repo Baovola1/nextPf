@@ -5,8 +5,7 @@
   /*background-color: #161623;*/
   min-height: 100vh;
   width: 100%;
-
-  /*overflow-x: hidden;*/
+  overflow-x: hidden; /* Ajout pour éviter le défilement horizontal */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,9 +13,8 @@
 .container {
   padding: 0;
   text-align: center;
-  /* border: 5px solid pink;*/
   top: 20px;
-  left: 50px;
+  left: 50%;
 }
 
 .text1 {
@@ -24,7 +22,7 @@
   font-family: Pacifico;
 }
 
-.photo {
+/*.photo {
   flex: 0 0 auto;
   margin-right: 20px;
 }
@@ -33,4 +31,4 @@
 }
 .text2 {
   color: white;
-}
+}*/

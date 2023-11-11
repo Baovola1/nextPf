@@ -25,8 +25,8 @@ function Navigation() {
           background: "cyan",
         }}
       >
-        <nav className="fixed top-0 w-full flex justify-between p-4 bg-slate-200">
-          <div className="sm:hidden">
+        <nav>
+          <div>
             <button
               onClick={toggleMenu}
               style={{
@@ -46,7 +46,7 @@ function Navigation() {
         </nav>
 
         {showMenu && (
-          <div className="sm:hidden">
+          <div>
             <div
               style={{
                 display: "flex",
