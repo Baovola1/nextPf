@@ -1,3 +1,10 @@
+.aboutpage {
+  background-image: url("../backgrd.jpg"); /* Ajoutez le chemin vers votre image */
+  background-size: cover; /* Ajustez la taille de l'image pour couvrir l'élément entier */
+  height: 100vh;
+  width: 100wh;
+}
+
 .parent {
   position: relative;
   display: flex;

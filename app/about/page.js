@@ -16,41 +16,43 @@ const about = () => {
 
   return (
     <>
-      <Navigation />
-      <h1>About</h1>
-      <div className={styles.parent}>
-        <div className={`${styles.card} card`}>
-          <div className={styles.content}>
-            <h2 className={styles.titre2}>01</h2>
-            <h3 className={styles.titre3}>Hard skills</h3>
-            <p>
-              « Il n'y a qu'une façon d'apprendre, c'est par l'action. » Paulo
-              Coelho
-            </p>
-            <button className={styles.btn}>Click here</button>
+      <div className={styles.aboutpage}>
+        <Navigation />
+        <h1>About</h1>
+        <div className={styles.parent}>
+          <div className={`${styles.card} card`}>
+            <div className={styles.content}>
+              <h2 className={styles.titre2}>01</h2>
+              <h3 className={styles.titre3}>Hard skills</h3>
+              <p>
+                « Il n'y a qu'une façon d'apprendre, c'est par l'action. » Paulo
+                Coelho
+              </p>
+              <button className={styles.btn}>Click here</button>
+            </div>
           </div>
-        </div>
-        <div className={`${styles.card} card`}>
-          <div className={styles.content}>
-            <h2 className={styles.titre2}>02</h2>
-            <h3 className={styles.titre3}>Soft Skills</h3>
+          <div className={`${styles.card} card`}>
+            <div className={styles.content}>
+              <h2 className={styles.titre2}>02</h2>
+              <h3 className={styles.titre3}>Soft Skills</h3>
 
-            <p>
-              « Il n'y a qu'une façon d'apprendre, c'est par l'action. » Paulo
-              Coelho
-            </p>
-            <button className={styles.btn}>Click here</button>
+              <p>
+                « Il n'y a qu'une façon d'apprendre, c'est par l'action. » Paulo
+                Coelho
+              </p>
+              <button className={styles.btn}>Click here</button>
+            </div>
           </div>
-        </div>
-        <div className={`${styles.card} card`}>
-          <div className={styles.content}>
-            <h2 className={styles.titre2}>03</h2>
-            <h3 className={styles.titre3}>Card Three</h3>
-            <p>
-              « Il n'y a qu'une façon d'apprendre, c'est par l'action. » Paulo
-              Coelho
-            </p>
-            <button className={styles.btn}>Click here</button>
+          <div className={`${styles.card} card`}>
+            <div className={styles.content}>
+              <h2 className={styles.titre2}>03</h2>
+              <h3 className={styles.titre3}>Card Three</h3>
+              <p>
+                « Il n'y a qu'une façon d'apprendre, c'est par l'action. » Paulo
+                Coelho
+              </p>
+              <button className={styles.btn}>Click here</button>
+            </div>
           </div>
         </div>
       </div>
